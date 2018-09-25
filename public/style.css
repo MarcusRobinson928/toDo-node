@@ -1,0 +1,100 @@
+body {
+    height: auto;
+    width: 100%;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    background-image: linear-gradient(to right,rgb(206, 0, 127) , purple);
+}
+
+h1 {
+    font-weight: lighter;
+    font-size: 30px;
+    color: white;
+    padding: 25px;
+}
+
+.container {
+    margin: 50px 25px;
+}
+
+input {
+    background-color: rgb(245, 245, 245);
+    color: grey;
+    border-radius: 5px;
+    border: solid 1px rgb(206, 0, 127);
+    position: relative;
+    left: 10px;
+    padding: 4px 175px 4px 5px;
+}
+
+button {
+    border: none;
+    color: blue;
+    position: relative;
+}
+
+.submit {
+    left: 10px; 
+}
+
+.box {
+    font-size: 20px;
+    background-color: rgb(245, 245, 245);
+}
+
+.x {
+    font-size: 20px;
+    background-color: rgb(245, 245, 245);
+    float: right;
+    right: 10px;
+}
+
+#share {
+    font-size: 15px;
+}
+
+.content {
+    border-top: solid 1px lightgray;
+    margin-top: 25px;
+}
+
+ul {
+    font-weight: bolder;
+    background-color: rgb(245, 245, 245);
+    border-radius: 5px;
+    margin-top: 25px;
+    padding: 6px 0px 6px 0px;
+}
+
+p {
+    position: relative;
+    margin-bottom: 5px;
+    left: 50px;
+}
+
+@media only screen and (min-width: 600px) {
+    .container {
+        border: solid 1px rgb(206, 0, 127);
+        border-radius: 5px;
+        margin: 50px 250px;
+        padding-bottom: 600px;
+    }
+
+    input {
+        border-radius: 10px;
+        margin: 25px 0px 25px 25px;
+        padding: 4px 710px 4px 5px;
+    }
+
+    .content{
+        margin: 25px;
+    }
+
+    ol {
+        border-radius: 5px;
+    }
+}
+
